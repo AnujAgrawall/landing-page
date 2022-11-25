@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing-Page</title>
+    <style>
+        *{
+            padding: 0;margin: 0;
+        }
+        .navbar{
+            height: 60vh;
+            width: 142vh;
+            padding: 3vh 30vh;
+            background-color: #1f2937;
+            /* color: aliceblue; */
+            /* border: 2px solid rgb(255, 255, 255); */
+        }
+        .one{
+            height: 17vh;
+            width: 18vh;
+            /* border: 2px solid rgb(255, 255, 255); */
+            font-size: 24px;
+            color: #f9faf8;
+        }
+          h3 {
+            height: 14vh;
+            width: 42vh;
+            font-size: 48px;
+            font-weight: bolder;
+            color: #f9faf8;
+            /* border: 2px solid rgb(255, 255, 255); */
+        }
+        #three{
+            height: 9vh;
+            width: 52vh;
+            font-size: 18px;
+            color: #e5e7eb;
+            text-align: justify;
+            /* border: 2px solid rgb(255, 255, 255); */
+        }
+       li{height: 3vh;
+            width: 27vh;
+            float: right;
+            color: #e5e7eb;
+            position: relative;
+            bottom: 43vh;
+            left: 13vh;
+            font-size: 18px;
+            list-style: none;
+            /* border: 2px solid rgb(255, 255, 255); */
+       }
+     
+        #five{
+            background-color: rgb(87, 88, 102);
+            text-align: center;
+            padding-top: 12vh;
+            height: 14vh;
+            width: 60vh;
+            float: right;
+            position: relative;
+           left: 55vh;
+           bottom: 24vh;
+           font-size: 18px;
+           color: #e5e7eb;
+           /* border: 2px solid rgb(255, 255, 255); */
+        }
+        a{
+            color: #e5e7eb;
+            text-decoration: none;
+        }
+        #four{
+            background-color: #3882f6; /* Green */
+            border: none;
+            color: #f9faf8;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            padding: 3.5px 42px;
+            cursor: pointer;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        .container{
+            display: flex;
+            /* border: 2px solid rgb(35, 96, 209); */
+            height: 430px;
+            width: 1515px;
+            /* padding: 0px 50px; */
+            flex-direction: column;
+            /* align-items: center; */
+            /* justify-content: end; */
+        }
+        .random{
+            /* margin-left: 200px; */
+            height:15vh;
+            width: 60vh;
+            /* border: 2px solid rgb(35, 96, 209); */
+            font-size: 36px;
+            font-weight: bolder;
+            color: #1f2937;
+            align-self:center;
+        }
+        .two{
+            border: 3px solid #3882f6;
+            border-radius: 12px;
+            height: 21vh;
+            width: 22vh;
+            align-self: center;
+            
+            /* flex-direction: row; */
+        }
+        .three{
+            margin-top: 5px;
+            /* border: 2px solid #3882f6; */
+            height: 16vh;
+            width: 21vh;
+            align-self: center;
+            font-size: 18px;
+        }
+       .pc,  .cp{
+            margin-left: 5vh;
+            width: 190vh;
+            /* border: 2px solid #3882f6; */
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .z{
+            border: 2px solid #e5e7eb;
+            height: 430px;
+            width: 1515px;
+            background-color: #e5e7eb;
+        }
+        .info{
+            margin-top: 15vh;
+            margin-left: 50vh;
+            /* border: 2px solid rgb(35, 96, 209); */
+            height: 160px;
+            width: 815px;
+            font-size: 36px;
+            color: #1f2937;
+            font-weight:100;
+            font-style: italic;
+            text-align: justify;
+            background-color: #e5e7eb;
+        }
+        .thor{
+            margin-left: 134vh;
+            width: 24vh;
+            /* border: 2px solid rgb(35, 96, 209); */
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .call{
+            border: 2px solid #fefeff;
+            height: 360px;
+            width: 1515px;
+        }
+        .some{
+            margin-top: 17vh;
+            margin-left: 32vh;
+            border: 2px solid #3882f6;
+            height: 130px;
+            width: 1015px;
+            background-color: #3882f6;
+            border-radius: 3px;
+        }
+        .action{
+            font-size: 18px;
+            font-weight: bold;
+            /* border: 2px solid #101011; */
+            width: 30vh;
+            margin-left: 15vh;
+            margin-top: 5vh;
+            color: #e5e7eb;
+        }
+        .quote{
+            margin-left: 15vh;
+            /* font-size: 18px; */
+            /* font-weight: bold; */
+            /* border: 2px solid #101011; */
+            width: 100vh;
+            color: #e5e7eb;
+        }
+        .button{
+            margin-left: 25vh;
+            background-color: #3882f6; /* Green */
+            border: solid #f9faf8;
+            color: #f9faf8;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            padding: 3.5px 38px;
+            cursor: pointer;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        footer{
+            border: 2px solid #1f2937;
+            height: 70px;
+            width: 1515px;
+            text-align: center;
+            padding-top: 9vh;
+            font-size: 18px;
+            color: #e5e7eb;
+            background-color:#1f2937;
+        }
+
+    </style>
+</head>
+<body>
+    <header class="navbar">
+        <div class="left">
+            <h4 class="one">Header Logo</h4>
+            <p id="two"><h3>This Website is awesome</h3></p>
+            <p id="three">This website has some subtext that goes here under the 
+                main title. it's a smaller font and the color is lower constrast
+            </p>
+            <a href="https://www.youtube.com/watch?v=pRpeEdMmmQ0&t=61s"target="_blank" ><button id="four">Sign up</button></a>
+        </div>
+        <div class="right">
+            <ul>
+                <li><a href="https://www.youtube.com/watch?v=JhckVlgYZJE"target="_blank">header link three</a></li>
+                <li><a href="https://youtu.be/G0x6DJ9eVsM?t=154"target="_blank">header link two</a></li>
+                <li><a href="https://youtu.be/f1N5lZw7e78?t=5"target="_blank">headre link one</a></li>
+            </ul>
+            <p id="five">this is a placeholder for an image</p>   
+        </div>
+    </header>
+   <div class="container">
+    <div class="random">Some random information.</div>
+   <div class="cp"> <div class="two"></div>
+   <div class="two"></div>
+   <div class="two"></div>
+   <div class="two"></div></div>
+    <div class="pc"><div class="three">this is some subtext under an illustration or image</div>
+    <div class="three">this is some subtext under an illustration or image</div>
+    <div class="three">this is some subtext under an illustration or image</div>
+    <div class="three">this is some subtext under an illustration or image</div></div>
+   </div>
+   <div class="z">
+    <div class="info">This is an inspiring quote or a testimonial froam a 
+                     customer. Maybe it's just filling up space or Maybe people 
+                     will actually read it . who knows? All i know 
+                     is that it looks nice.
+    </div>
+    <div class="thor"> - Thor, God of Thunder</div>
+   </div>
+   <div class="call">
+   <div class="some">
+     <div class="action">Call to action! it's time!</div>
+   <dive class="quote">sign up for our product by clicking that button right over there!</dive>
+   <a href="https://www.youtube.com/watch?v=QhMO5SSmiaA&t=94s" target="_blank"><button class="button">Sign up</button></div></a>
+   </div>
+   <footer>Copyright &copy;<a href="https://www.theodinproject.com/dashboard"> The Odin Project 2022</a></footer>
+</body>
+</html>
