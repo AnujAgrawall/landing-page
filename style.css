@@ -3,6 +3,7 @@
     margin: 0;
     font-family: 'Baloo Bhai 2', cursive;
 }
+
 .navbar {
     height: 60vh;
     width: 142vh;
@@ -32,7 +33,7 @@ h3 {
 
 #three {
     height: 11vh;
-    width: 56vh;
+    width: 40vh;
     font-size: 18px;
     color: #e5e7eb;
     text-align: justify;
@@ -91,7 +92,7 @@ a {
 .container {
     display: flex;
     /* border: 2px solid rgb(35, 96, 209); */
-    height: 430px;
+    height: 630px;
     width: 100%;
     /* padding: 0px 50px; */
     flex-direction: column;
@@ -161,11 +162,12 @@ a {
 }
 
 .thor {
-    margin-left: 134vh;
+    margin-left: 118vh;
     width: 25vh;
     /* border: 2px solid rgb(35, 96, 209); */
     font-size: 18px;
     font-weight: bold;
+    margin-top: 2.5vh;
 }
 
 .call {
@@ -175,8 +177,8 @@ a {
 }
 
 .some {
-    margin-top: 1vh;
-    margin-left: 35vh;
+    margin-top: 20vh;
+    margin-left: 48vh;
     border: 2px solid #3882f6;
     height: 130px;
     width: 1015px;
